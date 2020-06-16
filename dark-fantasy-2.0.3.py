@@ -15,7 +15,7 @@ import platform
 
 def dos(host):
     if operSys=="Windows":
-		subprocess.call('cls', shell=True)
+		subprocess.call('cls',shell=True)
     if operSys=="Linux":
 		subprocess.call('clear', shell=True)
     uagent=[]
